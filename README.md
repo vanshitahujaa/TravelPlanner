@@ -226,3 +226,19 @@ const newVersion = await mutateItinerary(oldItinerary);
 📄 License
 MIT License.
 # TravelPlanner
+
+## AI Approach
+
+This itinerary planner generates optimized, constraint-safe travel plans using:
+
+- **Constraint Satisfaction Problem (CSP):** ensures feasibility of schedules  
+- **A* Search:** optimizes routing between destinations  
+- **Fuzzy Logic:** personalizes itinerary pace based on user preferences  
+
+## Setup Instructions
+
+```bash
+git clone https://github.com/vanshitahujaa/TravelPlanner.git
+cd TravelPlanner
+pip install -r requirements.txt
+python main.py
